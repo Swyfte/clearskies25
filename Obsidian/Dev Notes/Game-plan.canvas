@@ -1,0 +1,39 @@
+{
+	"nodes":[
+		{"id":"d303b367dc3c38a2","type":"text","text":"## Card game!\n\nRougelike, steam punk, solar punk ","x":-40,"y":-700,"width":300,"height":180},
+		{"id":"d5cfe17573a8974e","type":"text","text":"## Combat","x":-1400,"y":180,"width":250,"height":60},
+		{"id":"7b47ab11cc31f0a8","type":"text","text":"## Encounter types: ","x":-1087,"y":-80,"width":265,"height":70},
+		{"id":"89bb57cc8d46a864","type":"text","text":"## Social","x":-1080,"y":180,"width":250,"height":60},
+		{"id":"5a3861b9630e610f","type":"text","text":"## Exploration","x":-780,"y":180,"width":250,"height":60},
+		{"id":"10d4183255716dd1","type":"text","text":"## Action points","x":-260,"y":-80,"width":340,"height":127},
+		{"id":"c3b57633f222a072","type":"text","text":"## Casting \nCards cost 1 action point to cast. Casting discards the card.","x":-380,"y":113,"width":290,"height":127},
+		{"id":"8ce2e0287f1dc045","type":"text","text":"## Upcasting\nUpcasting is free, but discards the upcast card.","x":-60,"y":113,"width":320,"height":127},
+		{"id":"bfd9731257ed56d3","type":"text","text":"## Card hand\nPlayer can hold 8 cards","x":720,"y":100,"width":280,"height":140},
+		{"id":"256dd7bbf2352a6a","type":"text","text":"## Card system","x":735,"y":-80,"width":250,"height":60},
+		{"id":"38d1265e36bffed0","type":"text","text":"## Card draw\nThe player draws 4 cards each round","x":1040,"y":100,"width":280,"height":140},
+		{"id":"766c7970e2c164b7","type":"text","text":"## Card deck\nPlayer starts with a deck of 12 cards","x":380,"y":100,"width":300,"height":135},
+		{"id":"8d6105631831e02e","type":"text","text":"## Cards!","x":1000,"y":-340,"width":250,"height":60},
+		{"id":"8ea638d0c96145a8","type":"text","text":"## Card types","x":2025,"y":-80,"width":250,"height":60},
+		{"id":"0068623d3d8116d5","type":"text","text":"## Combat Cards\n\nTend towards dealing damage or providing defence.","x":1540,"y":100,"width":360,"height":150},
+		{"id":"7900e7384cb1ea5b","type":"text","text":"## Exploration Cards\n\nTend towards","x":1980,"y":100,"width":340,"height":150},
+		{"id":"215441e88405480d","x":2480,"y":100,"width":280,"height":150,"type":"text","text":"## Social Cards"}
+	],
+	"edges":[
+		{"id":"378e05f6a9f0133a","fromNode":"7b47ab11cc31f0a8","fromSide":"bottom","toNode":"d5cfe17573a8974e","toSide":"top"},
+		{"id":"d765acbad0fdaf8f","fromNode":"7b47ab11cc31f0a8","fromSide":"bottom","toNode":"89bb57cc8d46a864","toSide":"top"},
+		{"id":"fd8b796dc7451250","fromNode":"7b47ab11cc31f0a8","fromSide":"bottom","toNode":"5a3861b9630e610f","toSide":"top"},
+		{"id":"72321143f53c750c","fromNode":"d303b367dc3c38a2","fromSide":"bottom","toNode":"7b47ab11cc31f0a8","toSide":"top"},
+		{"id":"48c90919093cb553","fromNode":"256dd7bbf2352a6a","fromSide":"bottom","toNode":"bfd9731257ed56d3","toSide":"top"},
+		{"id":"bb3e782720f85051","fromNode":"256dd7bbf2352a6a","fromSide":"bottom","toNode":"38d1265e36bffed0","toSide":"top"},
+		{"id":"c1e6300b2669a782","fromNode":"256dd7bbf2352a6a","fromSide":"bottom","toNode":"766c7970e2c164b7","toSide":"top"},
+		{"id":"8f18a1c3882d17a7","fromNode":"d303b367dc3c38a2","fromSide":"bottom","toNode":"10d4183255716dd1","toSide":"top"},
+		{"id":"8e0295a2208ecf81","fromNode":"10d4183255716dd1","fromSide":"bottom","toNode":"c3b57633f222a072","toSide":"top"},
+		{"id":"33a3d78e47eaaac0","fromNode":"10d4183255716dd1","fromSide":"bottom","toNode":"8ce2e0287f1dc045","toSide":"top"},
+		{"id":"20666e2b0fe7e27a","fromNode":"d303b367dc3c38a2","fromSide":"bottom","toNode":"8d6105631831e02e","toSide":"top"},
+		{"id":"d9dccf80ca0c35a0","fromNode":"8d6105631831e02e","fromSide":"bottom","toNode":"256dd7bbf2352a6a","toSide":"top"},
+		{"id":"8fe48f14ae53ee0d","fromNode":"8d6105631831e02e","fromSide":"bottom","toNode":"8ea638d0c96145a8","toSide":"top"},
+		{"id":"46ddea1a940028d3","fromNode":"8ea638d0c96145a8","fromSide":"bottom","toNode":"0068623d3d8116d5","toSide":"top"},
+		{"id":"7c9bef1126e51bff","fromNode":"8ea638d0c96145a8","fromSide":"bottom","toNode":"7900e7384cb1ea5b","toSide":"top"},
+		{"id":"1c1bcdb03894833f","fromNode":"8ea638d0c96145a8","fromSide":"bottom","toNode":"215441e88405480d","toSide":"top"}
+	]
+}
