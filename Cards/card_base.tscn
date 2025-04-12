@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://dbegxqcosroe6"]
+
+[ext_resource type="Script" uid="uid://op3r46xtbtnp" path="res://Cards/card_base.gd" id="1_gxr5w"]
+
+[node name="CardBase" type="MarginContainer"]
+offset_right = 250.0
+offset_bottom = 350.0
+pivot_offset = Vector2(125, 175)
+script = ExtResource("1_gxr5w")
