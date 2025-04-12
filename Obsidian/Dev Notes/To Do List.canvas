@@ -1,0 +1,16 @@
+{
+	"nodes":[
+		{"id":"200be2e8ef76015b","type":"group","x":-740,"y":-360,"width":520,"height":1320,"label":"To Do:"},
+		{"id":"d751a059708e0650","type":"group","x":-220,"y":-360,"width":520,"height":1320,"label":"In Progress:"},
+		{"id":"fd1a73c312f95c37","type":"group","x":300,"y":-360,"width":500,"height":1320,"label":"Completed:"},
+		{"id":"8fba36862792b2be","type":"text","text":"  Define the core mechanics of the game, including turn structure, win conditions, card types, and card effects.","x":-720,"y":-340,"width":480,"height":60},
+		{"id":"8c285c60c1f6ddbd","type":"text","text":"Create a Card class that represents the basic properties and methods of a card, such as its name, type, effect, and artwork.","x":-720,"y":-260,"width":480,"height":100},
+		{"id":"b6185f0f059ab6e9","type":"text","text":"Implement a Deck class that contains a collection of cards, as well as methods for shuffling, drawing, and adding or removing cards from the deck.","x":-720,"y":-140,"width":480,"height":100},
+		{"id":"c03067bc3d0e27db","type":"text","text":" Create a Player class that represents the attributes and actions of a player, such as their health, mana, hand of cards, and ability to play cards or take actions.","x":-720,"y":-20,"width":480,"height":100},
+		{"id":"df2cb1c3c443f0d0","type":"text","text":" Implement a Game class that controls the overall flow of the game, including setting up the game board, dealing cards, managing player turns, and determining the winner.","x":-720,"y":100,"width":480,"height":100},
+		{"id":"ae962c41efe38a50","type":"text","text":"Create a User Interface (UI) that displays the game state, allows players to interact with the game, and provides feedback on game events.","x":-720,"y":220,"width":480,"height":100},
+		{"id":"8d0b8032ea309482","type":"text","text":"Test the game thoroughly to ensure that all mechanics are working as intended and that there are no bugs or balance issues.","x":-720,"y":340,"width":480,"height":100},
+		{"id":"6bc34657fb1f4062","type":"text","text":"Add additional features and content, such as new card types, game modes, or difficulty levels, to keep the game fresh and engaging.","x":-720,"y":460,"width":480,"height":100}
+	],
+	"edges":[]
+}
