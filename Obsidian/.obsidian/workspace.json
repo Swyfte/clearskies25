@@ -1,44 +1,56 @@
 {
   "main": {
-    "id": "bcc8b2667aad2906",
+    "id": "49be088de74f76d0",
     "type": "split",
     "children": [
       {
-        "id": "92b1f42f06fee40e",
+        "id": "f4e4d625df1f90d6",
         "type": "tabs",
         "children": [
           {
-            "id": "159782d4a8298e82",
+            "id": "6a75717d6e645d63",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Dev Notes/To Do List.canvas",
-                "viewState": {
-                  "x": 30,
-                  "y": 103.5049024632762,
-                  "zoom": -0.04139163119693013
-                }
+                "file": "Dev Notes/Overview.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "To Do List"
+              "icon": "lucide-file",
+              "title": "Overview"
+            }
+          },
+          {
+            "id": "731fcd94df0c77ef",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Dev Notes/Overview.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Overview"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "c013638236860a6a",
+    "id": "ece1e138b7533cad",
     "type": "split",
     "children": [
       {
-        "id": "36fc301c0ab264a5",
+        "id": "263f132aad9dfcd6",
         "type": "tabs",
         "children": [
           {
-            "id": "3c6c4b5daa4b46a3",
+            "id": "34c8438cd93d1bf1",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -51,7 +63,7 @@
             }
           },
           {
-            "id": "79ee043e5aa79b90",
+            "id": "aebd4a1f4d006914",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -68,7 +80,7 @@
             }
           },
           {
-            "id": "695eaec2e5a9a580",
+            "id": "caf93c26bd2747fa",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -81,22 +93,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 204.5
+    "width": 300
   },
   "right": {
-    "id": "e4fe9b3001cba0b8",
+    "id": "2e2ccfa5288a30bf",
     "type": "split",
     "children": [
       {
-        "id": "d4966cb022e0e2c8",
+        "id": "6536aa5306f82997",
         "type": "tabs",
         "children": [
           {
-            "id": "edfc2ce72bb11d5a",
+            "id": "b5de63639c91f559",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Dev Notes/Overview.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,24 +119,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for Overview"
             }
           },
           {
-            "id": "ff5aaa2c29cd2927",
+            "id": "e81e51e24b1a9e90",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Dev Notes/Overview.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from Overview"
             }
           },
           {
-            "id": "06e33bb763229df7",
+            "id": "afe908ba17631415",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -138,17 +152,18 @@
             }
           },
           {
-            "id": "807285b4ff784872",
+            "id": "db5ca74cc9c1a04f",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
+                "file": "Dev Notes/Overview.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Overview"
             }
           }
         ]
@@ -168,12 +183,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "159782d4a8298e82",
+  "active": "731fcd94df0c77ef",
   "lastOpenFiles": [
-    "Dev Notes/To Do OLD.md",
+    "assets/iu_1378888_7149472.jpeg",
+    "assets",
     "Dev Notes/To Do List.canvas",
+    "Dev Notes/Example card data.md",
+    "Dev Notes/Core Mechanics.md",
+    "Dev Notes/Game-plan.canvas",
     "Dev Notes/Overview.md",
-    "Dev Notes/To Do List.md",
-    "Dev Notes/Core Mechanics.md"
+    "Dev Notes/To Do OLD.md",
+    "Dev Notes/To-do.md"
   ]
 }
