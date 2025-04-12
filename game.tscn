@@ -4,9 +4,7 @@
 
 [node name="Game" type="Node2D"]
 
-[node name="Main Menu" type="Node" parent="."]
-
-[node name="Level 1" type="Node" parent="."]
-
 [node name="Player" type="Node2D" parent="."]
 script = ExtResource("1_80nbo")
+
+[node name="Level 1" type="Node2D" parent="."]
