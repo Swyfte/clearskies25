@@ -10,8 +10,11 @@ Something that I'd like to add in as well is an "overcharge" mechanic to the car
 
 <<<<<<< Updated upstream
 I understand that adding *both* these mechanics might be a bit tight for a 30 day gamejam so I would be happy to do just one or the other.
+<<<<<<< Updated upstream
 =======
 I understand that adding *both* these mechanics might be a bit tight for a 30 day gamejam so I would be happy to do just one or the other.
+=======
+>>>>>>> Stashed changes
  ![[iu_1378888_7149472.jpeg]]
 ### Links to resources:
 
@@ -22,5 +25,9 @@ Link to game jam idea/team:
 [https://www.newgrounds.com/bbs/topic/1544495#bbspost28054759_post_text](https://www.newgrounds.com/bbs/topic/1544495#bbspost28054759_post_text "https://www.newgrounds.com/bbs/topic/1544495#bbspost28054759_post_text")
 
 Link to Github repo:
+<<<<<<< Updated upstream
+https://github.com/Swyfte/clearskies25/
+>>>>>>> Stashed changes
+=======
 https://github.com/Swyfte/clearskies25/
 >>>>>>> Stashed changes
