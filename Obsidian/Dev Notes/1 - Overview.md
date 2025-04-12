@@ -9,7 +9,8 @@ The trick comes that you can use any card type in any situation. For example "Ch
 Something that I'd like to add in as well is an "overcharge" mechanic to the cards, so you could cast three firebolts for all three energy for 12 damage, or you could cast 1 overcharged firebolt for 1 energy by discarding the other two firebolts, this would do 8 damage and apply Burn 2 or something.
 
 
-I understand that adding *both* these mechanics might be a bit tight for a 30 day gamejam so I would be happy to do just one or the other.
+I understand that adding *both* these mechanics might be a bit tight for a 30 day game jam so I would be happy to do just one or the other.
+
 
 
  ![[iu_1378888_7149472.jpeg]]
@@ -21,5 +22,5 @@ Link to game jam:
 Link to game jam idea/team: 
 [https://www.newgrounds.com/bbs/topic/1544495#bbspost28054759_post_text](https://www.newgrounds.com/bbs/topic/1544495#bbspost28054759_post_text "https://www.newgrounds.com/bbs/topic/1544495#bbspost28054759_post_text")
 
-Link to Github repo:
+Link to GitHub repo:
 https://github.com/Swyfte/clearskies25/
