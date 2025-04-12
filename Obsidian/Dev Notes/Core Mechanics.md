@@ -100,3 +100,27 @@ Combat encounters: All enemies are either dead or charmed
 Social encounters: Bit more tricky, some opponents need to be scared,  others need to be placated. Varies from scenario to scenario
 
 Exploration encounters: Generally the mage wins by escaping unharmed or by discovering something.
+
+# Overcharge
+Whenever a card is cast, if the player has additional copies in their hand, they may optionally discard these additional copies to boost the effect of the played card.
+There are a few forms that overcharge can take:
+### Damage/Healing
+(Water) Add 50% of base amount to damage/healing, add effect
+1. (base) 4 water damage
+2. 6 damage, effect 1
+3. 8 damage, effect 2
+4. 10 damage, effect 3
+
+### Targeted effects
+Add additional targets
+1. (base) charm 1 target
+2. charm 2 targets
+3. charm 3 targets
+4. charm 4 targets (Auto ends combat)
+
+### AOE effects
+Heighten the effect(, top adds a bonus effect?)
+1. (base) effect 1
+2. effect 2
+3. effect 3
+4. effect 4(, effect b 1?)
