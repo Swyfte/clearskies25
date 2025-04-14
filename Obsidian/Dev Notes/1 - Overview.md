@@ -24,3 +24,6 @@ Link to game jam idea/team:
 
 Link to GitHub repo:
 https://github.com/Swyfte/clearskies25/
+
+Link to Card assets:
+https://cafedraw.itch.io/fantasy-card-assets

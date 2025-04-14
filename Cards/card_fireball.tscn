@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://bnx2flidyyyvd"]
+
+[ext_resource type="Script" uid="uid://dsnupmbq18cd4" path="res://Cards/card_fireball.gd" id="1_e2aow"]
+
+[node name="Card Fireball" type="Node2D"]
+script = ExtResource("1_e2aow")

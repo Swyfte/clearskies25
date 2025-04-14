@@ -1,0 +1,66 @@
+[gd_scene load_steps=3 format=3 uid="uid://cm2ryp3g0skak"]
+
+[ext_resource type="Script" uid="uid://bt8v3s5jgxo1p" path="res://Cards/base_card.gd" id="1_p6l3q"]
+[ext_resource type="Texture2D" uid="uid://575o0xilexgp" path="res://Assets/Cards/pixelCardAssest_V01.png" id="1_ydy5p"]
+
+[node name="Base Card" type="Node2D"]
+script = ExtResource("1_p6l3q")
+
+[node name="Card Base Sprite" type="Sprite2D" parent="."]
+texture_filter = 1
+texture = ExtResource("1_ydy5p")
+region_enabled = true
+region_rect = Rect2(250, 4, 100, 128)
+
+[node name="Card Name Sprite" type="Sprite2D" parent="."]
+texture_filter = 1
+position = Vector2(0, -50)
+texture = ExtResource("1_ydy5p")
+region_enabled = true
+region_rect = Rect2(241, 304, 77, 15)
+
+[node name="Card Art Sprite" type="Sprite2D" parent="."]
+texture_filter = 1
+position = Vector2(0, -6)
+texture = ExtResource("1_ydy5p")
+region_enabled = true
+region_rect = Rect2(22, 136, 86, 72)
+
+[node name="Card Effects Sprite" type="Sprite2D" parent="."]
+texture_filter = 1
+position = Vector2(-5.68434e-14, 44)
+scale = Vector2(0.913793, 0.913793)
+texture = ExtResource("1_ydy5p")
+region_enabled = true
+region_rect = Rect2(17, 299, 97, 29)
+
+[node name="Card Name Label" type="RichTextLabel" parent="."]
+offset_left = -36.0
+offset_top = -55.0
+offset_right = 2021.0
+offset_bottom = 259.0
+scale = Vector2(0.035, 0.035)
+theme_override_colors/default_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/normal_font_size = 200
+bbcode_enabled = true
+text = "Card name"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Card Effects Label" type="RichTextLabel" parent="."]
+offset_left = -42.0
+offset_top = 33.0
+offset_right = 2358.0
+offset_bottom = 633.0
+scale = Vector2(0.035, 0.035)
+theme_override_colors/default_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/normal_font_size = 200
+bbcode_enabled = true
+text = "Card Effects Label"
+
+[node name="Card Rarity Sprite" type="Sprite2D" parent="."]
+texture_filter = 1
+position = Vector2(43, -57)
+texture = ExtResource("1_ydy5p")
+region_enabled = true
+region_rect = Rect2(377, 240, 18, 17)
