@@ -19,6 +19,10 @@ Purchase Cost: low
 ```csharp
 public class Card {
 	public string Name { get; set; }
+	
+		public string Name { get => name; set => name = value };
+		private string name;
+		
 	public CardType CardType { get; set; }
 	public CardRarity Rarity { get; set; }
 	public string RulesText { get; set; }
