@@ -11,4 +11,3 @@ extends Node2D
 #AP Cost: 1
 #Purchase Cost: low
 #endregion
-var cardName = "Fireball"
