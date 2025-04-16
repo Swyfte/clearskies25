@@ -1,18 +1,14 @@
 ## Water Effects
 #### Attack effect
-Tidal wave? (Build up and crash)
+##### Tsunami
+Builds up on targets as effects are played.
+When 3 stacks of Tsunami are present on a target at the beginning of its turn, it takes a large amount of damage and all stacks are removed.
 
 #### Defence effect
 Heal
 
-## Air Effects
-#### Attack Effect
-
-#### Defence Effect
-Dodge
-
-
 ## Tools
-Water wheel card:
-In exploration: Provides energy
-In combat: Whenever you play a {3,2,1} tier overcharged water spell, gain 1 energy and/or draw a card
+##### Generator
+The caster gains energy whenever they overcharge a card element 
+
+## Social
