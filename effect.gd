@@ -11,5 +11,4 @@ enum TriggerTime {TURN_START, TURN_END}
 		magnitude = clamp(value, 0, 3)
 @export var effectTrigger: TriggerTime
 
-func trigger():
-	pass
+signal trigger
