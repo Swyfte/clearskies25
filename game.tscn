@@ -1,8 +1,13 @@
-[gd_scene load_steps=2 format=3 uid="uid://dug86xm3ytdhy"]
+[gd_scene load_steps=3 format=3 uid="uid://dug86xm3ytdhy"]
 
 [ext_resource type="PackedScene" uid="uid://cm2ryp3g0skak" path="res://Cards/base_card.tscn" id="1_80nbo"]
+[ext_resource type="Script" uid="uid://bq7ilctpc1ucl" path="res://effect.gd" id="2_e2o6t"]
 
 [node name="Main" type="Node2D"]
 
 [node name="Base Card" parent="." instance=ExtResource("1_80nbo")]
 position = Vector2(475, 303)
+
+[node name="Effect" type="Node" parent="."]
+script = ExtResource("2_e2o6t")
+metadata/_custom_type_script = "uid://bq7ilctpc1ucl"
