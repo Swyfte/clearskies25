@@ -1,0 +1,21 @@
+
+- [ ] Map
+	- [ ] Paths
+	- [ ] Icon slots
+	- [ ] Start point
+	- [ ] End point
+- [ ] Event icons
+	- [ ] Combat
+	- [ ] Social
+	- [ ] Exploration
+- [ ] Cards
+	- [ ] Art (Time consuming)
+	- [ ] Frame
+		- [ ] Text box
+		- [ ] Title box (with rarity)
+			- [ ] Shape alter for each type?
+		- [ ] Frame base
+	- [ ] Set icon
+	- [ ] Type icons
+- [ ] UI button styling
+- [ ] Main menu art
