@@ -1,0 +1,45 @@
+[gd_scene load_steps=5 format=3 uid="uid://dbcn8ukrskog"]
+
+[ext_resource type="Script" uid="uid://dvssxwk4cgmgr" path="res://Scripts/card.gd" id="1_rjlel"]
+[ext_resource type="Texture2D" uid="uid://cvp438fra7qpb" path="res://Assets/PlantCard.png" id="2_wf8id"]
+[ext_resource type="Texture2D" uid="uid://ceyy02rk8qb8n" path="res://Assets/Sprites/waterType.png" id="3_brehn"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_rjlel"]
+size = Vector2(100, 128)
+
+[node name="Card" type="Node2D"]
+position = Vector2(150, 890)
+script = ExtResource("1_rjlel")
+
+[node name="CardImage" type="Sprite2D" parent="."]
+z_index = 1
+texture_filter = 1
+texture = ExtResource("2_wf8id")
+region_rect = Rect2(332, 337, 100, 128)
+
+[node name="CardType" type="Sprite2D" parent="."]
+z_index = 1
+position = Vector2(33, -47)
+scale = Vector2(0.386364, 0.386364)
+texture = ExtResource("3_brehn")
+
+[node name="Area2D" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+shape = SubResource("RectangleShape2D_rjlel")
+
+[node name="Attack" type="RichTextLabel" parent="."]
+z_index = 2
+offset_left = -42.0
+offset_right = -2.0
+offset_bottom = 40.0
+text = "0"
+
+[node name="Health" type="RichTextLabel" parent="."]
+z_index = 2
+offset_right = 40.0
+offset_bottom = 40.0
+text = "0"
+
+[connection signal="mouse_entered" from="Area2D" to="." method="_on_area_2d_mouse_entered"]
+[connection signal="mouse_exited" from="Area2D" to="." method="_on_area_2d_mouse_exited"]
