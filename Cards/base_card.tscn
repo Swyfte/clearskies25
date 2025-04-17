@@ -14,7 +14,6 @@ region_enabled = true
 region_rect = Rect2(250, 4, 100, 128)
 
 [node name="Card Base Blue Sprite" type="Sprite2D" parent="."]
-visible = false
 texture_filter = 1
 texture = ExtResource("1_ydy5p")
 region_enabled = true
@@ -71,7 +70,6 @@ metadata/_edit_use_anchors_ = true
 [node name="Card Rarity Sprite" type="Sprite2D" parent="."]
 texture_filter = 1
 position = Vector2(43, -57)
-scale = Vector2(1, 1)
 texture = ExtResource("1_ydy5p")
 region_enabled = true
 region_rect = Rect2(377, 240, 18, 17)

@@ -1,7 +1,7 @@
 extends Node2D
 
 func _ready() -> void:
-	$"Card Name Sprite/Card Name Label".text = "Card name 123"
+	$"Card Name Sprite/Card Name Label".text = "Card name"
 	$"Card Effects Sprite/Card Effects Label".text = "Some Effect" + "Overcharge Effect" + "Flavour text"
 	$"Card Base Gray Sprite".visible = true
 	$"Card Base Blue Sprite".visible = false
