@@ -9,36 +9,42 @@ size = Vector2(100, 128)
 
 [node name="Card" type="Node2D"]
 position = Vector2(150, 890)
+scale = Vector2(2, 2)
 script = ExtResource("1_rjlel")
 
 [node name="CardImage" type="Sprite2D" parent="."]
 z_index = 1
 texture_filter = 1
+scale = Vector2(2, 2)
 texture = ExtResource("2_wf8id")
 region_rect = Rect2(332, 337, 100, 128)
 
 [node name="CardType" type="Sprite2D" parent="."]
 z_index = 1
-position = Vector2(33, -47)
-scale = Vector2(0.386364, 0.386364)
+position = Vector2(70.5, -98)
+scale = Vector2(0.579546, 0.579546)
 texture = ExtResource("3_brehn")
 
 [node name="Area2D" type="Area2D" parent="."]
+scale = Vector2(2, 2)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
 shape = SubResource("RectangleShape2D_rjlel")
 
 [node name="Attack" type="RichTextLabel" parent="."]
 z_index = 2
-offset_left = -42.0
-offset_right = -2.0
-offset_bottom = 40.0
+offset_left = -56.0
+offset_top = 48.0
+offset_right = -16.0
+offset_bottom = 88.0
 text = "0"
 
 [node name="Health" type="RichTextLabel" parent="."]
 z_index = 2
-offset_right = 40.0
-offset_bottom = 40.0
+offset_left = 26.5
+offset_top = 46.0
+offset_right = 66.5
+offset_bottom = 86.0
 text = "0"
 
 [connection signal="mouse_entered" from="Area2D" to="." method="_on_area_2d_mouse_entered"]

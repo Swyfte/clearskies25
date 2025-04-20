@@ -11,11 +11,13 @@ script = ExtResource("1_jmuc5")
 
 [node name="CardSlotImage" type="Sprite2D" parent="."]
 texture_filter = 1
+scale = Vector2(2, 2)
 texture = ExtResource("1_qx3y6")
 region_enabled = true
 region_rect = Rect2(115, 473, 100, 128)
 
 [node name="Area2D" type="Area2D" parent="."]
+scale = Vector2(2, 2)
 collision_layer = 2
 collision_mask = 2
 
