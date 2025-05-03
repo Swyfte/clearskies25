@@ -1,8 +1,8 @@
 [gd_scene load_steps=4 format=3 uid="uid://5e7w6gqsthby"]
 
 [ext_resource type="Script" uid="uid://h4cd4ncfhdr2" path="res://Scenes/UI/stats_ui.gd" id="1_5clbi"]
-[ext_resource type="Texture2D" uid="uid://b4sx0kxy73b8m" path="res://Assets/Icons/Block.png" id="1_p3mum"]
 [ext_resource type="Texture2D" uid="uid://dc7w8ppjfs4gf" path="res://Assets/Icons/Health.png" id="2_5clbi"]
+[ext_resource type="Texture2D" uid="uid://d1gllufk3ydkf" path="res://Assets/Sprites/defendType.png" id="2_kmp8n"]
 
 [node name="StatsUI" type="HBoxContainer"]
 anchors_preset = 5
@@ -19,7 +19,7 @@ layout_mode = 2
 
 [node name="BlockImage" type="TextureRect" parent="Block"]
 layout_mode = 2
-texture = ExtResource("1_p3mum")
+texture = ExtResource("2_kmp8n")
 stretch_mode = 5
 
 [node name="BlockLabel" type="Label" parent="Block"]
